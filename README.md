@@ -9,21 +9,19 @@
 
 ## Project Name:Basic_Calculator
 ### Objective
-
-### Key Activities
--> **Built GUI**-Using NetBeans JFrame Form Created GUI of Calculator<br>
--> **Assign Variables** - Assign Variables to each keys and  Objects<br>
--> **Assign Events** - Given MouseClick/Action Performed Event for each buttons in the calculator<br>
--> **Coding**- In coding part described the Functions and Variable Declaration to make calculator working perfectly.<br>
-### Technologies Used
--> **Java Programming**<br>
--> **Apache NetBeans**<br>
--> **Absolute Layout**
-### File Description
--> **Task1_Files/Basic_Calculator.form** -NetBeans GUI form which is created by NetBeans automatically when interface is designed.<br>
--> **Task1_Files/Basic_Calculator.java** -Background Coding which works  through Button Click/Action Performed which is triggers only on happening of Event.<br>
--> **dist/lib** -Libraries used for layout of GUI 'Absolute Layout'.<br>
--> **dist**- Folder content 'Basic_Calculator.jar' is created when  Clean and Built in NetBeans.
-### Working 
-Download this Git repository as Zip folder and extract.<br>
-Then Open Basic_Calculator.form in Task1_Files folder(change contents of this folder to 'src/Calculator/' folder inside src folder form)using NetBeans Or Open Project and Select Extracted Folder and Run Project to perform Calculations.
+The purpose of this project is to create a simple command-line calculator that allows users to perform arithmetic operations (addition, subtraction, multiplication, division) on two numbers entered by the user.
+### Functionalities
+-> **Input Gathering:** Prompt the user to enter two numbers.<br>
+-> **Operation Selection:** Display a menu for the user to choose from addition, subtraction, multiplication, or division.<br>
+-> **Calculation:** Perform the selected operation on the entered numbers.<br>
+-> **Output:** Display the result of the operation to the user.<br>
+### Components
+-> **Main Class:** Contains the main method where the program execution begins.<br>
+-> **Scanner:** Used to read user input from the console.<br>
+-> **Switch-Case Statement:** Used to implement different operations based on user choice.<br>
+-> **Arithmetic Operations:** Addition, subtraction, multiplication, and division operations are implemented based on user input.<br>
+### Steps to Implement
+-> **Setup Input Handling:** - Use 'Scanner' to capture user input for two numbers and the desired operation.<br>
+-> **Display Menu:** -Present the user with a menu of operations (addition, subtraction, multiplication, division).<br>
+-> **Perform Calculation:** -Implement each arithmetic operation using conditional statements (switch-case).<br>
+-> **Output Result:** -Display the result of the operation to the user.<br>
